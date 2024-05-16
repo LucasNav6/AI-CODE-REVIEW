@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Code reviewer",
+  "description": "Analizador de código, con IA.",
+  "version": "1.0",
+  "icons": {
+    "16": "images/icon-16.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/createNewButton.js"],
+      "css": ["styles/createNewButton.css"],
+      "matches": ["https://github.com/*"]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+#analyze-pr {
+    color: #fff;
+    fill: var(--button-primary-iconColor-rest);
+    background-color: #4644DF;
+    border-color: var(--button-primary-borderColor-rest);
+    box-shadow: var(--shadow-resting-small, var(--color-btn-primary-shadow));
+    min-width: fit-content;
+    padding: 0 12px;
+    font-size: 12px;
+    margin-left: 8px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+#analyze-pr:hover {
+    background-color: #4f4ce4;
+}
+
+#content-ai-bttn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    height: 25px;
+}
+
+#svg {
+    width: 14px;
+    height: 14px;
+    fill: white;
+}
+
+#content-ai-bttn p {
+    margin-bottom: 0;
+}
